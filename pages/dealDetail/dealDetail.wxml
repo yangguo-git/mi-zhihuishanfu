@@ -1,0 +1,7 @@
+<view class="bigBox">
+ <view class="items">
+     <view class="title">{{protocolName}}</view>
+     <image class="" src="{{item.protocolInfo.protocolUrl}}" wx:for="{{imgsArr}}"/>
+ </view>
+</view>
+  

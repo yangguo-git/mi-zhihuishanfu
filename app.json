@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/addInfors/addInfors",
+    "pages/registerSuccess/registerSuccess",
+    "pages/dealDetail/dealDetail",
+    "pages/credentials/credentials"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

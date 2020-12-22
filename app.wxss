@@ -1,0 +1,6 @@
+.scBold{
+    font-family: PingFang SC, PingFang SC-Bold;
+}
+.scRegular{
+    font-family: PingFang SC, PingFang SC-Regular;
+}

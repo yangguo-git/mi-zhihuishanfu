@@ -1,0 +1,21 @@
+<view class="homeWrap">
+    <view class="imgBox">
+        <image class="" src="../../images/img2x.png" mode="" />
+    </view>
+    <view class="inforWrap">
+        <view class="topPart">
+            <text class="title">人员信息登记</text>
+            <view class="tips">为保障酬金服务，需要您登录酬金发放人员登记小程序，如实填写个人信息完成实名认证，以便酬金及时发放至您账户。</view>
+        </view>
+        <view class="midddlePart">
+            <button bindgetphonenumber="getPhoneNumber" open-type="getPhoneNumber" hover-class="none" class="getPhoneClass">
+                微信用户一键登录
+            </button>
+            <!-- <view class="faceStyle" bindtap="goFace">使用人脸识别登陆</view> -->
+        </view>
+        <view class="bottomPart">
+             <text class="agree">登录代表您同意</text>
+             <text class="deal" bindtap="showDeal">微应酬金发放服务协议</text>
+        </view>
+    </view>
+</view>

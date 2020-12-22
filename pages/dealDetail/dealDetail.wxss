@@ -1,0 +1,25 @@
+page{
+    width: 750rpx;
+    /* height: 1206rpx;
+    opacity: 0.2; */
+    background: #D5E4FF;
+}
+.bigBox{
+    width: 694rpx;
+    /* height: 1142rpx; */
+    background: #ffffff;
+    border-radius: 16rpx;
+    margin-top: 28rpx;
+    margin-left: 28rpx;
+    margin-bottom: 28rpx;
+}
+.items{
+    text-align: center;
+}
+.title{
+    font-size: 34rpx;
+    padding-top: 60rpx;
+}
+.items image{
+    height: 1220rpx;
+}

@@ -1,0 +1,46 @@
+.outterBox{
+   margin: 0rpx 10rpx;
+}
+.topBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 102rpx;
+}
+.topBox image{
+    width: 130rpx;
+    height: 130rpx;
+}
+.textStyle{
+    text-align: center;
+    height: 40rpx;
+    font-size: 28rpx;
+    font-family: PingFang SC, PingFang SC-Regular;
+    font-weight: 400;
+    color: #272727;
+    margin-top: 81rpx;
+}
+.btnwrap{
+    display: flex;
+    justify-content: center;
+}
+.lookBtn{
+    width: 439rpx;
+    height: 84rpx;
+    line-height: 84rpx;
+    background: linear-gradient(270deg,#2181ff, #2d7aff);
+    border-radius: 10rpx;
+    color: white;
+    font-size: 30rpx;
+}
+.successText{
+    height: 45rpx;
+    font-size: 32rpx;
+    font-family: PingFang SC, PingFang SC-Bold;
+    font-weight: 700;
+    text-align: center;
+    color: #272727;
+    line-height: 40rpx;
+    margin-top: 24rpx;
+}

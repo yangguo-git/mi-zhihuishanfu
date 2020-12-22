@@ -1,0 +1,28 @@
+<view>
+    <view class="topPart">
+         <image class="successImg" src="../../images/face_img2x.png" />
+    </view>
+      
+    <view class="warn">
+        请如实填写个人信息，否则将无法登记成功。
+    </view>
+      
+    <view class="inforsBox">
+        <view>
+            <text class="textStyle">姓名</text>
+            <input type="text" placeholder="请输入姓名" placeholder-class="grayStyle" bindinput='name_input'/>
+        </view>
+        <view>
+            <text class="textStyle">证件类型</text>
+            <text class="textStyle idCard">身份证</text>
+        </view>
+        <view class="idnumber">
+            <text class="textStyle">证件号</text>
+            <input type="idcard" placeholder="请输入证件号码" placeholder-class="grayStyle" bindinput='code_input'/>
+        </view>
+    </view>
+    <view class="btnBox">
+        <!-- <view>提交</view> -->
+        <button disabled="{{isDisabled}}" bindtap="commitSuccess">提交</button>
+    </view>
+</view>

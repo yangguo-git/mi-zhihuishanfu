@@ -1,0 +1,13 @@
+
+<view class="outterBox">
+    <view>
+        <view class="topBox">
+            <image class="successImg" src="../../images/s_icon2x.png" />
+            <text class="successText">登记成功</text>
+        </view>
+        <view class="textStyle">您已完成个人信息登记，可享受酬金发放服务。</view>
+        <view class="btnwrap">
+            <view class="textStyle lookBtn" bindtap="lookDetail">查看认证凭证</view>
+        </view>
+    </view>
+</view>
